@@ -42,7 +42,7 @@ function theme.highlights(colors, config)
       -- same as Define
       Macro = { fg = colors.red },
       -- A typedef
-      Typedef = { fg = colors.purple },
+      Typedef = { fg = colors.yellow },
       -- preprocessor #if, #else, #endif, etc.
       PreCondit = { fg = colors.purple },
       -- any special symbol
