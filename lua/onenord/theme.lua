@@ -432,9 +432,9 @@ function theme.highlights(colors, config)
       -- Text representation of a danger note.
       ["@danger"] = { fg = colors.error, style = "bold" },
       -- Type (and class) definitions and annotations.
-      ["@type"] = { fg = colors.orange },
+      ["@type"] = { fg = colors.yellow },
       -- Built-in types: `i32` in Rust.
-      ["@type.builtin"] = { fg = colors.orange },
+      ["@type.builtin"] = { fg = colors.yellow },
       -- Variable names that don't fit into other categories.
       ["@variable"] = { fg = colors.fg, style = config.styles.variables },
       -- Variable names defined by the language: `this` or `self` in Javascript.
